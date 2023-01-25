@@ -13,11 +13,13 @@ void diamond(int n) {
 		for (int j = 0; j < s; j++) {
 			printf("*");
 		}
+
+		// not really needed
 		for (int k = 0; k < b/2; k++) {
 			printf(" ");
 		}
 
-		if (count < (n/2) + 1) {
+		if (count < (n/2)) {
 			s = s + 2;
 			b = b - 2;
 		} else {
