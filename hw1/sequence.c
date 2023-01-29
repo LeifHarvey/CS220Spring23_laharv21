@@ -29,8 +29,8 @@ int sequence(int n) {
 
 
 int longest() {
-	int index = 0;
-	int longest = 0;
+	long index = 0;
+	long long longest = 0;
 	for(int i = 1; i <= 1000000; i++) {
 		int curr = sequence(i);
 		if (curr > longest) {

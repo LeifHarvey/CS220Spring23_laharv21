@@ -1,9 +1,5 @@
 #include <stdio.h>
-
-extern int sum3or5(int n);
-extern int sequence(int n);
-extern int longest();
-extern void diamond(int n);
+#include "hw1.h"
 
 
 int main() {
