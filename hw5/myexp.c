@@ -15,7 +15,7 @@ double myexp(double x) {
     // factorial is the value of the factorial portion
     double factorial = 1.0;
 
-    while (k <= 12) {
+    while (k <= 20) {
         power = power * x;
         factorial = factorial * k;
         sum += power/factorial;

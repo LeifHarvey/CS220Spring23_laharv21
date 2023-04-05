@@ -5,7 +5,7 @@
 
 .align 3
 one: .double 1.0
-twelve: .double 12.0
+twenty: .double 20.0
 
 .align 2
 
@@ -23,7 +23,7 @@ myexp:
 	vldr.f64 d7, [r0]
 
 	// load 12 into d5 for calculation bound
-	ldr r0, =twelve
+	ldr r0, =twenty
 	vldr.f64 d5, [r0]
 
 while:
